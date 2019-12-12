@@ -8,4 +8,22 @@
 
 * Create bastion servers (Linux & Windows) in the web public subnet and security groups
 
+**Files:**
+
+* auth-variables.tf --> AWS authentication variables
+
+* bastion-linux.tf --> Linux Bastion
+
+* bastion-windows.tf --> Linux Windows
+
+* common-variables.tf --> Common variables (app name, environment, etc)
+
+* network-main.tf --> Create network components (VPC, Subnets, etc)
+
+* network-variables.tf --> Variables for network components
+
+* security-main.tf --> Security groups for all subnets
+
+* terraform.tfvars --> AWS authentication variables 
+
 Note: remove the bastion-windows.tf and/or the bastion-linux.tf if you don't need access to private subnets
