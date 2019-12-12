@@ -16,7 +16,7 @@
 
 * **bastion-windows.tf** --> Linux Windows
 
-* **common-variables.**tf** --> Common variables (app name, environment, etc)
+* **common-variables.tf** --> Common variables (app name, environment, etc)
 
 * **network-main.tf** --> Create network components (VPC, Subnets, etc)
 
