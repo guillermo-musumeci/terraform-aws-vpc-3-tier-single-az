@@ -2,14 +2,14 @@
 
 # Define application name
 variable "app_name" {
-  type = string
+  type        = string
   description = "Application name"
-  default = "kopicloud"
+  default     = "kopicloud"
 }
 
 # Define application environment
 variable "app_environment" {
-  type = string
+  type        = string
   description = "Application environment"
-  default = "demo"
+  default     = "demo"
 }
