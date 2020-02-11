@@ -10,11 +10,11 @@
 
 **Files:**
 
-* **auth-variable**s.tf** --> AWS authentication variables
+* **auth-variables.tf** --> AWS authentication variables
 
-* **bastion-linux.tf**** --> Linux Bastion
+* **bastion-linux.tf** --> Linux Bastion
 
-* **bastion-windows.tf** --> Linux Windows
+* **bastion-windows.tf** --> Windows Bastion
 
 * **common-variables.tf** --> Common variables (app name, environment, etc)
 
